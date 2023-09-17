@@ -1,6 +1,7 @@
 #Linear Search
 
 List = [3, 4, 1, 8, 2, 4]
+nr = 4
 
 def LinSearch1(list, obj):
     a = -1
