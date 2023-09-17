@@ -9,3 +9,14 @@ def LinSearch1(list, obj):
             a = i
     
     return a
+
+def LinSearch2(list, obj):
+    a = -1
+    i = 0
+    while i <= len(list):
+        if obj == list[i]:
+            a = i
+            break
+        i += 1
+    
+    return a
