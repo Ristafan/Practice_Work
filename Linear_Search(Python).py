@@ -21,3 +21,6 @@ def LinSearch2(list, obj):
         i += 1
     
     return a
+
+print(LinSearch1(List, nr))
+print(LinSearch2(List, nr))
