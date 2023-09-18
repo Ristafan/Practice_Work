@@ -12,11 +12,12 @@ def BinSearch(list, nmb):
             l = m+1
         if list[m] > nmb:
             r = m
+        m = int((l+r)/2)
 
     if list[m] == nmb:
         return m
     else: return -1
 
 
-a = BinSearch(Array, 3)
-print("The number you were looking for is in space %i", a)
+a = BinSearch(Array, 1)
+print("The number you were looking for is in space %d", a)
