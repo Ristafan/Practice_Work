@@ -21,6 +21,7 @@ int LinSearch2(int arr[], int len, int obj){
             a = i;
             break;
         };
+        i++;
     };
 
     return a;
